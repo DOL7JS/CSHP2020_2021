@@ -14,7 +14,7 @@ namespace Fei
             /// <returns></returns>
             public static int? ReadInt(string text)
             {
-                Console.WriteLine(text + ": ");
+                Console.Write(text + ": ");
                 string input = Console.ReadLine();
                 if (int.TryParse(input, out int result))
                 {
@@ -29,7 +29,7 @@ namespace Fei
             /// <returns></returns>
             public static string ReadString(string text)
             {
-                Console.WriteLine(text + ": ");
+                Console.Write(text + ": ");
                 return Console.ReadLine();
             }
             /// <summary>
@@ -40,7 +40,7 @@ namespace Fei
             /// <returns></returns>
             public static double? ReadDouble(string text)
             {
-                Console.WriteLine(text + ": ");
+                Console.Write(text + ": ");
                 string input = Console.ReadLine();
                 if (double.TryParse(input, out double result))
                 {
@@ -55,7 +55,7 @@ namespace Fei
             /// <returns></returns>
             public static char ReadChar(string text)
             {
-                Console.WriteLine(text + ": ");
+                Console.Write(text + ": ");
                 return (char)Console.Read();
             }
         }
