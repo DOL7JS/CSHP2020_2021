@@ -6,7 +6,7 @@ namespace Cv02_odevzdani
     class Program
     {
         private static void LoadArray( ref double[] array) {
-            double? size = Reading.ReadDouble("Vložte velikost pole");
+            int? size = Reading.ReadInt("Vložte velikost pole");
             if (size != null)
             {
                 if (size < 1)
@@ -42,7 +42,7 @@ namespace Cv02_odevzdani
                 Console.WriteLine($"Index {i} = {array[i]}");
             }
         }
-        private static void SortArray( double[]array) {
+        private static void SortArray(double[]array) {
             Array.Sort(array);
             Console.WriteLine("Pole bylo setrideno");
         }
