@@ -1,5 +1,7 @@
 ﻿using System;
 using Fei;
+using Fei.BaseLib;
+
 namespace Cv3
 {
     delegate int sortStudents(Student st1, Student st2);
