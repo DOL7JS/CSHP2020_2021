@@ -1,5 +1,4 @@
 ﻿using System;
-using Fei;
 using Fei.BaseLib;
 
 namespace Cv3
