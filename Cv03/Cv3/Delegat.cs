@@ -1,5 +1,5 @@
 ﻿using System;
-using Fei.BaseLib;
+using Fei;
 namespace Cv3
 {
     delegate int sortStudents(Student st1, Student st2);
@@ -7,7 +7,7 @@ namespace Cv3
     {
         static void Main(string[] args)
         {
-            //int d = MathConventor.BinToDec(01011);
+            int d = MathConventor.BinToDec(01011);
             //string q = MathConventor.DecToBin(20);
             //double? x1, x2;
             //bool b = ExtraMath.QuadraticEquation(1, 1, 1, out x1, out x2);
